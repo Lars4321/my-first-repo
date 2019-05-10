@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  /* Style the body */
+  body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+  }
+  
+  /* Header/logo Title */
+  .header {
+    padding: 0px;
+    height:260px;
+    margin: 0;
+    text-align: left;
+   background-image: url("coding1.jpg");
+    background-position: left top;
+    background-size: 100%;
+    background-attachment: fixed;
+    color: white;
+  }
+  .opacity-box {
+    height:100% ;
+    padding:0px;
+    margin: 0px;
+    background-color: rgba(0,0,0,0.7);
+
+  }
+  
+  /* Increase the font size of the heading */
+  .header h1 {
+    /*font-family: 'Sofia', cursive;*/
+    font-size: 70px;
+    font-family: 'Righteous';
+    color:rgb(218, 231, 27);
+    padding-left: 3%;
+    padding-top: 3%;
+  }
+  .header p {
+    font-size: 30px;
+    font-weight: bold; 
+    text-align: center;
+  }
+  
+  /* Style the top navigation bar */
+  .navbar {
+    overflow: hidden;
+    /*background: linear-gradient(rgb(109, 101, 110), rgb(52, 7, 61));*/
+    background: linear-gradient(rgb(80, 72, 72),rgb(20, 20, 20), rgb(80, 72, 72));
+    
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Section*/
+  #showcase{
+    min-height: 800px;
+    background:url('showcase.jpg') no-repeat 0 -400px;
+    text-align: center;
+    color:#ffffff;
+  
+  }
+  
+  #showcase h1{
+    margin-top:0px;
+    font-size:55px;	
+    margin-bottom:0px;
+    padding-top: 250px;
+    
+  }
+  
+  #showcase p{
+  
+    font-size: 20px;
+
+  }
+  
+  /* Column container */
+  .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background: linear-gradient(rgb(247, 244, 244), rgb(192, 188, 188));
+    padding: 20px;
+    
+  }
+  
+  /* Main column */
+  .main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background: linear-gradient(rgb(255, 255, 255), rgb(112, 112, 112));
+    padding: 20px;
+  }
+  .main div {
+
+  width: 70%;
+  height: 70%;
+  }
+  
+  /* Fake image, just for this example */
+  .fakeimg {
+    background-color: #aaa;
+    width: 35%;
+    padding: 20px;
+    
+  }
+  
+  
+  /* Footer */
+  .footer {
+    margin-top: -20px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(rgb(20, 20, 20), rgb(70, 66, 66));
+  }
+
+  /* CV page*/
+
+.PDFfil {
+width:100%; 
+height: 100%;
+}
+
+/*kode billede*/
+.coding2 {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100%;
+}
+  
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+      
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+  
