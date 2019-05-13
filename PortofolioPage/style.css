@@ -106,7 +106,7 @@
   .side {
     -ms-flex: 30%; /* IE10 */
     flex: 30%;
-    background: linear-gradient(rgb(247, 244, 244), rgb(192, 188, 188));
+    background-color:rgb(163, 159, 159);
     padding: 20px;
     
   }
@@ -115,7 +115,7 @@
   .main {   
     -ms-flex: 70%; /* IE10 */
     flex: 70%;
-    background: linear-gradient(rgb(255, 255, 255), rgb(112, 112, 112));
+    background-color:rgb(163, 159, 159);
     padding: 20px;
   }
   .main div {
@@ -154,6 +154,14 @@ height: 100%;
   width: 100%;
   height: 100%;
   padding-bottom: 100%;
+}
+
+/*projekter*/
+#vejrapp {
+
+  width: 20%;
+  margin-bottom: 5%;
+
 }
   
   /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
