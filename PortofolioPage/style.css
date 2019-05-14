@@ -37,6 +37,7 @@
     color:#BBBE64;
     padding-left: 3%;
     padding-top: 3%;
+    opacity: 0.6;
     
   }
   .header p {
@@ -44,6 +45,7 @@
     font-weight: bold; 
     text-align: center;
     text-shadow: 1.5px 1.5px;
+    opacity: 0.6;
   }
   
   /* Style the top navigation bar */
