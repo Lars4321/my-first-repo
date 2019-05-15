@@ -168,12 +168,13 @@ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 .vejrapp {
 
   width: 20%;
+  margin-top: 1%;
   margin-bottom: 5%;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
 }
 .vejrapp:hover {
-  width: 22%;
+  transform: scale(1.1);
 }
 
   
