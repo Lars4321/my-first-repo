@@ -98,6 +98,9 @@
     font-size: 2vw;
 
   }
+  h2 {
+    text-align: center;
+  }
   
   /* Column container */
   .row {  
@@ -123,11 +126,19 @@
     flex: 70%;
     background-color:rgb(163, 159, 159);
     padding: 20px;
+    
   }
   .main div {
 
   width: 70%;
   height: 70%;
+  }
+  .grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .grid-item {
+    background-color:rgb(163, 159, 159);
   }
   
   /* Fake image, just for this example */
