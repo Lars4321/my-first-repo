@@ -7,6 +7,7 @@
   body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    background-color:rgb(163, 159, 159);
   }
   
   /* Header/logo Title */
@@ -100,6 +101,9 @@
   }
   h2 {
     text-align: center;
+    margin-top: 10%;
+    font-size: 40px;
+    
   }
   
   /* Column container */
@@ -136,9 +140,17 @@
   .grid-container{
     display: grid;
     grid-template-columns: auto auto;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    background-color:rgb(163, 159, 159);
+    
   }
   .grid-item {
+    padding-top: 15%;
     background-color:rgb(163, 159, 159);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    
   }
   
   /* Fake image, just for this example */
@@ -180,7 +192,7 @@ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
   width: 20%;
   margin-top: 1%;
-  margin-bottom: 5%;
+  margin-bottom: 20%;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
 }
