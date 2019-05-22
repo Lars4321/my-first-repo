@@ -140,17 +140,15 @@
   .grid-container{
     display: grid;
     grid-template-columns: auto auto;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 20%;
     background-color:rgb(163, 159, 159);
-    
   }
   .grid-item {
-    padding-top: 15%;
+    padding-top: 20%;
     background-color:rgb(163, 159, 159);
     border: 1px solid rgba(0, 0, 0, 0.8);
-    text-align: center;
-    
+    text-align: center;    
   }
   
   /* Fake image, just for this example */
@@ -190,11 +188,14 @@ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 /*projekter*/
 .vejrapp {
 
-  width: 20%;
-  margin-top: 1%;
+  width: 50%;
+  margin-top: 4%;
   margin-bottom: 20%;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
+}
+#beatzcapture {
+  height: 22%;
 }
 .vejrapp:hover {
   transform: scale(1.1);
